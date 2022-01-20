@@ -1,0 +1,480 @@
+.App {
+  height: 1024px;
+  width: 1440px;
+  left: -565px;
+  top: 578px;
+  border-radius: 0px;
+}
+
+body {
+  background-color: #1E1E1E;
+  font-family: 'Orbitron', sans-serif; 
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 106px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.third-scene {
+  padding-left: 36px;
+}
+
+.left-scene {
+  width: 56.2%;
+  height: 767px;
+}
+
+.right-scene {
+  width: 43.8%;
+  border-left: 3px solid #05CCB2;
+  height: 767px;
+}
+
+.search-bar {
+  height: 38px;
+  width: 793px;
+  left: 31px;
+  top: 106px;
+  border-radius: 2px;
+  background: #05CCB266;
+  display: flex;
+}
+
+.search-input {
+  width: 320px;
+  left: 131px;
+  top: 109px;
+  border-radius: 0px;
+  background: #146459;
+  border: 0px;
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.search-label {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  margin-right: 5px;
+
+  color: #05CCB2;
+}
+
+.add-token {
+  position: absolute;
+  width: 192px;
+  height: 30px;
+  left: 621px;
+  top: 111px;
+
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+  background: #146459;
+  border: 0px;
+  color: #05CCB2;
+}
+
+.connect-wallet{
+  position: absolute;
+  width: 1378px;
+  height: 50px;
+  left: 31px;
+  top: 868.5px;
+  border: 0px;
+  background: #05CCB2;
+  border-radius: 2px;
+  text-align: right;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 15px;
+}
+
+.left-line-1 {
+  position: absolute;
+  width: 0px;
+  height: 600px;
+  left: 33px;
+  top: 189px;
+
+  border: 2px solid #05CCB2;
+}
+
+.left-line-2 {
+  position: absolute;
+  width: 0px;
+  height: 163px;
+  left: 83px;
+  top: 208px;
+
+  border: 2px solid #05CCB2;
+}
+
+.vl-s {
+  position: absolute;
+  width: 30px;
+  height: 0px;
+  left: 33px;
+
+  border: 1px solid #05CCB2;
+}
+
+.vl-1 {
+  top: 422px;
+}
+
+.vl-2 {
+  top: 481px;
+}
+
+.vl-3 {
+  top: 540px;
+}
+
+.vl-4 {
+  top: 599px;
+}
+
+.vl-5 {
+  top: 658px;
+}
+.vl-6 {
+  top: 717px;
+}
+
+.vl-2-1 {
+  left: 83px;
+  top: 240px;
+}
+
+.vl-2-2 {
+  left: 83px;
+  top: 301px;
+}
+
+.vl-2-3 {
+  left: 83px;
+  top: 373px;
+}
+
+.node-text {
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.vote {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  left: 120px;
+  top: 227px;
+  border: 0px;
+  background: #05CCB2;
+  border-radius: 1px;
+
+}
+
+.description {
+  position: absolute;
+  width: 710px;
+  height: 57px;
+  left: 121px;
+  top: 276px;
+
+  color: #05CCB2;
+}
+
+.pink {
+  color: #FF00A0;
+}
+
+.input-cyop {
+  position: absolute;
+  width: 710px;
+  height: 57px;
+  left: 121px;
+  top: 357px;
+ 
+  color: #05CCB2;
+}
+
+.vb-line {
+  position: absolute;
+  width: 808px;
+  height: 0px;
+  left: 31px;
+  top: 799px;
+
+  border: 3px solid #05CCB2;
+}
+
+.vt-1 {
+  position: absolute;
+  height: 35px;
+  left: 71px;
+  top: 409px;
+  color: #05CCB2;
+}
+
+.opacity-text {
+  color: rgba(5, 204, 178, 0.3);
+  padding-left: 8px;
+}
+
+.vt-2 {
+  position: absolute;
+  height: 35px;
+  left: 72px;
+  top: 468px;
+  
+  color: #05CCB2;
+}
+
+.vt-3 {
+  position: absolute;
+  height: 35px;
+  left: 72px;
+  top: 527px;
+  
+  color: #05CCB2;
+}
+
+.vt-4 {
+  position: absolute;
+  height: 35px;
+  left: 72px;
+  top: 586px;
+  
+  color: #05CCB2;
+}
+
+.vt-5 {
+  position: absolute;
+  height: 35px;
+  left: 72px;
+  top: 645px;
+  
+  color: #05CCB2;
+}
+
+.vt-6 {
+  position: absolute;
+  height: 35px;
+  left: 72px;
+  top: 704px;
+  
+  color: #05CCB2;
+}
+
+.loading-text {
+  position: absolute;
+  height: 25px;
+  left: 46px;
+  top: 818px;
+
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #05CCB2;
+}
+
+.protocol-text {
+  position: relative;  
+  margin-left:28px;
+  
+  color: #05CCB2;
+}
+
+.marketbuy {
+  position: relative;
+  margin-left:28px;
+  color: #05CCB2;
+}
+
+.ml-125 {
+  padding-left: 117px;
+  padding-right: 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.date {
+  color: rgba(5, 204, 178, 0.3);
+  margin-right: 66px;
+}
+
+.time {
+  color: rgba(5, 204, 178, 0.3);
+  margin-right: 105px;
+}
+
+.protocol-progress {
+  position: absolute;
+  width: 544px;
+  height: 38px;
+  left: 852px;
+  top: 306px;
+  margin-left: 13px;
+  padding-left: 13px;
+  background: #05CCB2;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #1E1E1E;
+}
+/* progress bar */
+.vertical_line {
+  color: rgba(5, 204, 178, 0.3);
+  height: 20px;
+  position: relative;
+  margin-top: 3px;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+
+.ml-8 {
+  margin-left: 14px;
+}
+
+.text-light-blue{
+  color: #05CCB2;
+}
+
+.progress-loading-bar{
+  background: url('../public/Progressbar_Protocol0022.png');
+  width: 80%;
+  height: 101px;
+  margin-top: 70px;
+}
+
+.vb-line {
+  position: absolute;
+  width: 570px;
+  height: 0px;
+  left: 844px;
+  top: 510px;
+
+  border: 3px solid #05CCB2;
+}
+
+.browser {
+  width: 545px;
+  height: 38px;
+  background: rgba(5, 204, 178, 0.4);
+  border-radius: 2px;
+  margin-top: 45px;
+  padding-left: 15px;
+  border: 0px;
+  margin-left: 13px;
+  display: flex;
+  align-items: center;
+  color: #05CCB2;
+}
+
+.event-act {
+  position: relative;
+  width: 545px;
+  height: 33px;
+  margin-left: 13px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  background: rgba(5, 204, 178, 0.25);
+  border-radius: 2px;
+  color: #05CCB2;
+  margin-top: 25px;
+}
+
+.arrow-1 {
+  top: 589px;
+}
+.arrow-2 {
+  top: 633px;
+}
+.arrow-3 {
+  top: 675px;
+}
+.arrow-4 {
+  top: 715px;
+}
+.arrow-5 {
+  top: 756px;
+}
+.arrow-6 {
+  top: 797px;
+}
+
+.arrow {
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  position: absolute;
+  left: 845px;
+  color: #05CCB2;
+}
+
+.mt-16 {
+  margin-top: 16px;  
+}
+
+.ml-13 {
+  margin-left: 13px;
+}
+
+.left-vl {
+  position: absolute;
+  width: 808px;
+  height: 0px;
+  left: 33px;
+  top: 790px;
+
+  border: 3px solid #05CCB2;
+}
